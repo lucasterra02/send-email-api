@@ -1,4 +1,4 @@
-FOI PRECISO APLICAR O CERTIFICADO SSL DO GMAIL, NA JVM, PARA CONSEGUIR ENVIAR OS E-MAILS, SEGUE TUTORIAL:
+DEPENDENDO DA MÁQUINA É PRECISO APLICAR O CERTIFICADO SSL DO GMAIL, NA JVM, PARA CONSEGUIR ENVIAR OS E-MAILS, SEGUE TUTORIAL:
 
 To use Gmail smtp service to send emails from your Java based mail client, you will need to import GMail smtp server's certificate into Java keystore and trust it. 
 
@@ -65,3 +65,9 @@ Without 2-Step Verification:
 
 1- Allow less secure apps access to your account.
 2- Visit http://www.google.com/accounts/DisplayUnlockCaptcha and sign in with your Gmail username and password.
+
+MUDAR CONFIGURAÇÕES NO E-MAIL NO PROPERTIES:
+
+spring.mail.host=smtp.gmail.com
+spring.mail.username=xxxx@gmail.com
+spring.mail.password=xxxx
